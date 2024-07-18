@@ -20,12 +20,12 @@
 
 
 
-export default App
+
 import React from "react";
-import Counter from "./Counter";
+import Counter from "./components/counter";
 import './App.css';
-import Home from "./component/Home";
-import Example from './component/Hooks';
+import Home from "./components/Home";
+import Example from './components/Hooks';
 const App = () => {
   return (
     <div className="App">
@@ -36,3 +36,4 @@ const App = () => {
     </div>
   );
 };
+export default App

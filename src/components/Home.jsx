@@ -1,6 +1,6 @@
 // src/component/Home.jsx
 import React from "react";
-import Product from "./Product";
+import Product from "./product";
 
 const Home = () => {
 const product = [
