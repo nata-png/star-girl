@@ -4,7 +4,7 @@ export default function Footer ()
 let currentDate= new Date()
 const myStyle ={
     fontsize :"30px",
-    backgroundColour :"pink"
+    backgroundColour :"pink",
 }
 let currentYear =currentDate.getFullYear()
 
@@ -18,5 +18,5 @@ let currentYear =currentDate.getFullYear()
       </>
        
         
-    )
-}
+    );
+};

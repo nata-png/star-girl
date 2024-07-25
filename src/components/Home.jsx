@@ -48,4 +48,5 @@ quantity={product.quantity}
 </div>
 );
 };
+
 export default Home;

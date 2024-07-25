@@ -8,5 +8,5 @@ export default function Myfirstcomponent(){
         <h4>what is the name of the school? {school}</h4>
         </div>
 
-    )}
+    )};
 

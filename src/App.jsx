@@ -20,7 +20,10 @@
 
 
 
-
+import { BrowserRouter as Router,Route,Routes} from "react-router-dom";
+import About from './components/about';
+import contact from './components/contact';
+import Navbar from "./components/NavBar";
 import React from "react";
 import Counter from "./components/counter";
 import './App.css';
@@ -28,12 +31,21 @@ import Home from "./components/Home";
 import Example from './components/Hooks';
 const App = () => {
   return (
-    <div className="App">
-      <Home/>
-      <Example/>
-      <Counter/>
+    <Router>
+      <div>
+        <Navbar/>
+        <Routes>
+        <Route path ="/" element ={<Home/>}/>
+        <Route path ="/about" element ={<About/>}/>
+        </Routes>
+      </div>
+    </Router>
+  //   <div className="App">
+  //     <Home/>
+  //     <Example/>
+  //     <Counter/>
 
-    </div>
+  // //   </div>
   );
 };
-export default App
+export default App;

@@ -1,6 +1,6 @@
 import React, {components} from "react";
 
-class Example extends React.Components {
+class Example extends React.Component {
 constructor(props){
     super(props);
     this.state = {count: 0};
@@ -15,4 +15,4 @@ render(){
 }
 
 }
-export default Example
+export default Example;

@@ -1,4 +1,10 @@
-.Nav{
+body{
+    background-color: aqua;
+    color: blue;
+    font-family: sans-serif;
+    
+}
+.App{
     background-color: blueviolet;
     color: chartreuse;
     display: flex;
@@ -7,17 +13,15 @@
     gap: 2rem;
     padding: 0 1rem;
 };
-.site-title{
-    font-size: 2rem;
-};
-.nav ul{
+
+.App ul{
     padding: 0;
     margin: 0;
     list-style: none;
     display: flex;
     gap: 1rem;
 };
-.nav a{
+.App a{
     color: inherit;
     text-decoration: none;
     height: 100%;
@@ -26,9 +30,9 @@
     padding: 25rem;
 
 };
-.nav li.active{
+.App li.active{
     background-color: brown;  
 };
-.nav li.hover{
+.App li.hover{
     background-color: crimson;
 };
